@@ -1,0 +1,27 @@
+@import "@/styles/functions/convert-px2rem";
+@import "@/styles/mixins/typography";
+@import "@/styles/mixins/breakpoints";
+@import "@/styles/mixins/mixins";
+
+.block {
+	@include md {
+	}
+
+	@include lg {
+	}
+}
+
+.wrap {
+}
+
+.inputWrap {
+	opacity: 0;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	display: block;
+}
+
+.button {
+	margin-bottom: convert-px2rem(10) !important;
+}
